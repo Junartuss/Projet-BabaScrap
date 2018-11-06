@@ -1,0 +1,268 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.customNav{
+
+}
+
+.logoSite:hover{
+   transition: all 1s;
+   transform: rotateY(360deg);
+}
+
+/*.customContainer{
+  box-shadow: 0px 7px 20px #eaeaea;
+}*/
+.listeCategorieBoutique{
+  background-color: #ee6e73;
+  box-shadow: 0px 8px 20px grey;
+}
+
+.listeCategorieBoutique li{
+  padding: 10px;
+}
+
+.listeCategorieBoutique a:hover{
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.listeCategorieBoutique a:hover > i{
+  transition: all 0.5s;
+  padding-left: 40px;
+}
+
+.listeCategorieBoutique a{
+  color: #FFF;
+  font-size: 16px;
+}
+
+.listeCategorieBoutique a > i{
+
+}
+
+.listeCategorieBoutique ul li ul{
+  padding-left: 15px;
+  border-left: 1px solid #FFF;
+}
+
+.imgBox{
+  height: 50%;
+  width: 50%;
+}
+
+.buttonCustom{
+  background-color: #ee6e73;
+  padding: 10px;
+  color: #FFF;
+}
+
+.buttonCustom:hover{
+  background-color: #FFF;
+  border: 1px solid #ee6e73;
+  font-weight: 700;
+  color: #ee6e73;
+  transition: all 0.3s;
+}
+.customCard{
+  background-color: #ee6e73;
+}
+.loginPage{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #ee6e73;
+  box-sizing: border-box;
+}
+.comptePage{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #ee6e73;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.comptePage td, th{
+    text-align: center;
+}
+.commandePage{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  border: 1px solid #ee6e73;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.inputSubmit{
+  background-color: #ee6e73;
+  padding: 10px;
+  color: #FFF;
+  border: 1px solid #ee6e73;
+}
+
+.inputSubmit i{
+  font-size: 1em;
+}
+
+.inputSubmit:hover{
+  background-color: #FFF;
+  border: 1px solid #ee6e73;
+  font-weight: 700;
+  color: #ee6e73;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.inputPanierDelete{
+  padding: 10px;
+  margin: 0;
+  background-color: #dc3545;
+  color: #FFF;
+  border: 1px solid #dc3545;
+}
+.inputPanierDelete:hover{
+  background-color: #FFF;
+  border: 1px solid #ee6e73;
+  color: #ee6e73;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.inputPanierRefresh{
+  padding: 11.3px;
+  margin: 0;
+  background-color: #ffc107;
+  color: #FFF;
+  border: 1px solid #ffc107;
+}
+.inputPanierRefresh:hover{
+  background-color: #FFF;
+  border: 1px solid #ee6e73;
+  color: #ee6e73;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.infoCompte{
+  color: #ee6e73;
+  font-weight: 700;
+}
+
+.h6PrixPanier{
+  margin: 10px 0 0 0;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ee6e73;
+}
+.card{
+  border: 4px solid #fff;
+}
+.card:hover{
+  transition: all 0.2s;
+  border: 4px solid #ee6e73;
+  box-shadow: 0px 8px 20px grey;
+  box-sizing: border-box;
+}
+
+.card:hover .card-title{
+  transition: all 0.6s;
+  color: #fff;
+  padding: 5px 5px 5px 20px;
+}
+
+
+.detailProduitPage{
+  padding: 10px;
+}
+
+.nomDetailProduit{
+  border-bottom: 3px solid #ee6e73;
+}
+
+.infoPrincipaleArticle{
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.infoPrincipaleArticle > span{
+  color: #ee6e73;
+}
+
+.urlCard{
+  color: #ee6e73;
+}
+
+.groupBox{
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.groupBox h6{
+  color: #ee6e73;
+  font-weight: 700;
+}
+
+.groupBox:hover{
+  border-right-color: #ee6e73;
+  transition: all 0.5s;
+}
+
+.pagination > li > a{
+  font-weight: 700;
+}
+.pagination > li > a:hover {
+  transition: all 0.05s;
+  border: 2px solid #ee6e73;
+}
+
+.accueil-titre {
+  text-transform: uppercase;
+  background-color: #ee6e73;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.accueil-slider-onglet {
+  text-align: center;
+  color: white;
+  background-color: #ee6e73;
+}
+
+.accueil-actualite-titre {
+  color: white;
+  background-color: #ee6e73;
+  padding: 5px;
+  margin: 0;
+}
+
+.accueil-actualite-contenu {
+  background-color: #fafafa;
+  padding: 5px;
+  margin: 0;
+}
+
+.accueil-actualite-footer {
+  background-color: #ee6e73;
+  color: white;
+  padding: 5px;
+  margin-top: 0;
+}
+
+#logo img {
+  width: 6%;
+  margin-right: 5px;
+}
